@@ -1,3 +1,5 @@
+.DS_Store
+
 # History files
 .Rhistory
 .Rapp.history
@@ -47,3 +49,13 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# output folders
+outputs/
+
+# _targets/ folder
+_targets/
+
+# Electorate models
+electorate_model/electorate_model_stage1.rds
+electorate_model/electorate_model_stage2.rds
