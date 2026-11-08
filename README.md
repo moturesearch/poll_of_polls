@@ -24,7 +24,7 @@ A Bayesian poll aggregator for NZ party vote share, plus a two-stage electorate 
    ```
 4. Download the pre-fitted electorate models (~400 MB). They are too large for git, so they are attached to the `models-v1` [GitHub release](https://github.com/moturesearch/poll_of_polls/releases/tag/models-v1). Run this from the project root:
    ```r
-  source("code/scripts/download_models.R")
+   source("code/scripts/download_models.R")
    ```
 5. Run the pipeline:
    ```r
